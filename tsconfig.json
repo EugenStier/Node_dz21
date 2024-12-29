@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Версия JavaScript (ES6, ES2015+)
+    "module": "commonjs", // Система модулей (CommonJS для Node.js)
+    "rootDir": "./src", // Корневая директория исходников TypeScript
+    "outDir": "./dist", // Директория для скомпилированного JavaScript
+    "strict": true, // Включает строгую типизацию
+    "esModuleInterop": true, // Совместимость с модулями ES
+    "forceConsistentCasingInFileNames": true, // Проверка регистра букв в именах файлов
+    "skipLibCheck": true // Пропуск проверки типизации библиотек
+  },
+  "include": ["src"], // Указывает, какие файлы включать
+  "exclude": ["node_modules", "dist"] // Исключает папки/файлы
+}
